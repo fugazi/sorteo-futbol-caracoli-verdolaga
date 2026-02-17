@@ -199,12 +199,12 @@ if sin_partido and len(sin_partido) > 0:
 story.append(Paragraph('<b>Resumen</b>', header_style))
 story.append(Paragraph('Total de participantes: ' + str(len(participantes)), normal_style))
 story.append(Paragraph('Ganadores con partido asignado: ' + str(len(resultados)), normal_style))
-story.append(Paragraph('Participantes sin asignacion: ' + str(len(sin_partido)), normal_style))
+story.append(Paragraph('Participantes sin asignacion de partido: ' + str(len(sin_partido)), normal_style))
 story.append(Spacer(1, 30))
 
 # Footer
 story.append(Paragraph('---', normal_style))
-story.append(Paragraph('Pagina web desarrollada por Douglas Fugazi', normal_style))
+story.append(Paragraph('Pagina web desarrollada por Douglas Urrea Ocampo', normal_style))
 story.append(Paragraph('https://douglasfugazi.co', normal_style))
 
 # Construir PDF
